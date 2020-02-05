@@ -6,7 +6,7 @@ const ArticleListItem = props => {
     <div>
     <h1>{props.value.title}</h1>
     <p>{props.value.shortText}</p>
-    <p>{props.value.pubDate}
+    <p><time dateTime ={props.value.pubYear}>{props.value.pubDate}</time>
       <button onClick={() => alert(props.value.slug)}>
         show article slug
       </button>
