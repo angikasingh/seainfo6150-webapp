@@ -1,7 +1,19 @@
 .container {
-    list-style: none;
-    padding: 20px;
-    margin: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
     background: #999;
-    border: 1px dashed #666;
 }
+
+.gridrow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  .griditem {
+    flex-basis: 20%;
+    -ms-flex: auto;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+  }

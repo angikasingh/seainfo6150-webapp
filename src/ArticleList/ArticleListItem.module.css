@@ -2,36 +2,32 @@
     background: linear-gradient(90deg, rgba(255,156,156,1) 0%, rgba(255,255,255,1) 20%);
     border-radius: 15px;
     border: 1px solid #c00;
-    margin-bottom: 20px;
-    padding: 10px;
-    height: 300px;
+    height: 400px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
     position: relative;
 }
 
 .title {
     color: #c00;
-    font-size: 3rem;
-    margin: .5rem 0;
-    margin-left: 240px;
-    margin-bottom: 20px;
+    font-size: 1.5rem;
+    margin-top: 90px;
 }
 
 .text {
-    font-size: 1.5rem;
-    margin-left: 240px;
-    margin-bottom: 20px;
+    font-size: 0.8rem;
 }
 
 .pubDate {
     font-weight: bold;
-    font-size: 1.5rem;
-    margin-left: 240px;
+    font-size: 0.7rem;
 }
 
 .articleImage {
     background: #c00;
     color: #fff;
     font-size: 1rem;
-    position: absolute;
 }
 

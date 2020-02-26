@@ -5,13 +5,16 @@ import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
   return (
-    <ul className={styles.container}>
+    <div className={styles.container}>
+      <div className={styles.gridrow}>
       {props.articles.map(article => (
-        <li key={article.slug}>
+        <div className={styles.griditem}> 
           <ArticleListItem article={article} />
-        </li>
+        </div>
       ))}
-    </ul>
+      </div>
+      </div>
+
   );
 };
 
