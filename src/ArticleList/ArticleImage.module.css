@@ -1,9 +1,8 @@
-.articleImage {
-    color: #fff;
-    position: absolute;
-    width: 120px;
-    height: 60px;
-    background: #a84909;
-    border-radius: 50%;
-    border: 8px solid #c00;
+.articleImage{
+	width :120px;
+	height:60px;
+	border: 8px solid #c00;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left:5px;
 }
